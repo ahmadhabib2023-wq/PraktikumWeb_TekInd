@@ -4,29 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Data Mesin Produksi</title>
 </head>
 <body>
     <header>
     <h1>Profil Mesin CNC-01</h1>
             <hr>
         </header>
-            <h2>Input Data Harian</h2>
-            <form action="">
-                <label for="tanggal">Tanggal:</label><br>
-                <input type="date" id="tanggal" name="tanggal" required><br><br>
-                <label for="shift">Shift Kerja:</label><br>
-                <select id="shift" name="shift">
-                    <option value="Pagi">Pagi (08:00 - 16:00)</option>
-                    <option value="Siang">Siang (16:00 - 24:00)</option>
-                    <option value="Malam">Malam (00:00 - 08:00)</option>
-                </select><br><br>
-                <label for="jumlah">Jumlah Produksi (Unit):</label><br>
-<input type="number" id="jumlah" name="jumlah" min="0" max="600"placeholder="Masukkan jumlah..."><br><br>
-                <label for="catatan">Catatan Kerusakan:</label><br>
-<textarea id="catatan" name="catatan" rows="4" cols="50" placeholder="Deskripsikan jika ada kendala..."></textarea><br><br>
-                <button type="submit">Simpan Data</button>
-            </form>
+            
             <section>
             <h2>Spesifikasi Teknis</h2>
             <ul>
@@ -57,6 +42,22 @@
                     </tr>
                 </tbody>
             </table>
+            <h2>Input Data Harian</h2>
+            <form action="">
+                <label for="tanggal">Tanggal:</label><br>
+                <input type="date" id="tanggal" name="tanggal" required><br><br>
+                <label for="shift">Shift Kerja:</label><br>
+                <select id="shift" name="shift">
+                    <option value="Pagi">Pagi (08:00 - 16:00)</option>
+                    <option value="Siang">Siang (16:00 - 24:00)</option>
+                    <option value="Malam">Malam (00:00 - 08:00)</option>
+                </select><br><br>
+                <label for="jumlah">Jumlah Produksi (Unit):</label><br>
+<input type="number" id="jumlah" name="jumlah" min="0" max="600"placeholder="Masukkan jumlah..."><br><br>
+                <label for="catatan">Catatan Kerusakan:</label><br>
+<textarea id="catatan" name="catatan" rows="4" cols="50" placeholder="Deskripsikan jika ada kendala..."></textarea><br><br>
+                <button type="submit">Simpan Data</button>
+            </form>
     
 </body>
 </html>
