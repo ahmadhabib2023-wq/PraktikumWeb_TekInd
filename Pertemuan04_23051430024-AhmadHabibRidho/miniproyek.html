@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kalkulator Biaya Produksi</title>
+    <link rel="stylesheet" href="miniproyek.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>KALKULATOR BIAYA PRODUKSI</h1>
+
+      <label>Biaya Bahan Baku (Rp)</label>
+      <input type="number" id="bahan" min="0" required />
+
+      <label>Biaya Tenaga Kerja (Rp)</label>
+      <input type="number" id="tenaga" min="0" required />
+
+      <label>Biaya Overhead (Rp)</label>
+      <input type="number" id="overhead" min="0" required />
+
+      <label>Jumlah Produksi (Unit)</label>
+      <input type="number" id="jumlah" min="1" required />
+
+      <button onclick="hitungBiaya()">Hitung Biaya</button>
+
+      <div id="hasil"></div>
+      <div id="status"></div>
+    </div>
+
+    <script src="miniproyek.js"></script>
+  </body>
+</html>
