@@ -1,0 +1,18 @@
+/* Styling tambahan */
+body {
+  background-color: #f5f7fa;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.hasil-box {
+  background-color: #eef6ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hasil-box h3 {
+  margin: 10px 0;
+}

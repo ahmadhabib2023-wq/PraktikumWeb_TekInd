@@ -1,0 +1,11 @@
+/* Maintenance Mode */
+.maintenance-mode {
+  background-color: #f8f9fa !important;
+  border: 2px dashed #6c757d;
+}
+
+/* Teks saat maintenance */
+.maintenance-text {
+  color: #6c757d;
+  font-weight: bold;
+}
