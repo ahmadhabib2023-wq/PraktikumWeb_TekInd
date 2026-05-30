@@ -2,23 +2,26 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav
-      style={{
-        backgroundColor: "#222",
-        padding: "15px",
-      }}
-    >
-      <Link to="/" style={{ color: "white", marginRight: "20px" }}>
-        Dashboard
-      </Link>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className="container">
+        <Link className="navbar-brand" to="/">
+          Sistem Produksi
+        </Link>
 
-      <Link to="/input" style={{ color: "white", marginRight: "20px" }}>
-        Input Produksi
-      </Link>
+        <div className="navbar-nav">
+          <Link className="nav-link" to="/">
+            Dashboard
+          </Link>
 
-      <Link to="/riwayat" style={{ color: "white" }}>
-        Riwayat
-      </Link>
+          <Link className="nav-link" to="/input">
+            Input Produksi
+          </Link>
+
+          <Link className="nav-link" to="/riwayat">
+            Riwayat
+          </Link>
+        </div>
+      </div>
     </nav>
   );
 }
